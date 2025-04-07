@@ -1,62 +1,3 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <title>Hướng dẫn cài đặt NoMachine trên Jetson Orin Nano</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-      padding: 2rem;
-    }
-
-    h2 {
-      color: #e63946;
-      animation: fadeIn 1s ease-in-out;
-      transition: transform 0.3s;
-    }
-
-    h2:hover {
-      transform: scale(1.05);
-    }
-
-    p {
-      opacity: 0;
-      animation: fadeIn 1s ease-in-out forwards;
-      animation-delay: 0.5s; /* Delay for paragraph */
-    }
-
-    pre {
-      background: #272822;
-      color: #f8f8f2;
-      padding: 1rem;
-      border-radius: 10px;
-      overflow-x: auto;
-      font-size: 1rem;
-    }
-
-    a {
-      color: #0077cc;
-      text-decoration: none;
-      transition: color 0.3s, font-size 0.3s;
-    }
-
-    a:hover {
-      text-decoration: underline;
-      color: #005fa3;
-      font-size: 1.1rem;
-    }
-
-    @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(-10px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-  </style>
-</head>
-<body>
-
   <h2>🚀 Hướng dẫn cài đặt NoMachine trên Jetson Orin Nano</h2>
 
   <p>Bạn có thể sử dụng NoMachine để điều khiển Jetson Orin Nano từ xa một cách dễ dàng và mượt mà. Hãy làm theo các bước sau:</p>
@@ -95,5 +36,3 @@ Từ máy tính khác, bạn có thể kết nối đến Jetson Orin Nano bằn
 
   <p>Chúc bạn kết nối Jetson Orin thành công và mượt mà! 🧠🔧</p>
 
-</body>
-</html>

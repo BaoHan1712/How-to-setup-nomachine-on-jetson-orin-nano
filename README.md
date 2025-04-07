@@ -15,6 +15,17 @@
     h2 {
       color: #e63946;
       animation: fadeIn 1s ease-in-out;
+      transition: transform 0.3s;
+    }
+
+    h2:hover {
+      transform: scale(1.05);
+    }
+
+    p {
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out forwards;
+      animation-delay: 0.5s; /* Delay for paragraph */
     }
 
     pre {
@@ -29,10 +40,13 @@
     a {
       color: #0077cc;
       text-decoration: none;
+      transition: color 0.3s, font-size 0.3s;
     }
 
     a:hover {
       text-decoration: underline;
+      color: #005fa3;
+      font-size: 1.1rem;
     }
 
     @keyframes fadeIn {
@@ -61,7 +75,7 @@ sudo systemctl set-default multi-user.target
 sudo /usr/NX/bin/nxserver --restart
   </pre>
 
-<pre> Mở terminal và chạy lệnh sau để cài đặt OpenSSH Server:
+  <pre> Mở terminal và chạy lệnh sau để cài đặt OpenSSH Server:
    sudo apt update
    sudo apt install openssh-server
 

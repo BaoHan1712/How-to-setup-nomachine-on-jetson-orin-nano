@@ -9,10 +9,8 @@ wget https://www.nomachine.com/free/arm/v8/deb -O nomachine.deb
 # Bước 2: Cài đặt gói DEB
 sudo dpkg -i nomachine.deb
 
-# Bước 3: Đặt chế độ khởi động không dùng giao diện đồ họa (tùy chọn)
-sudo systemctl set-default multi-user.target
 
-# Bước 4: Khởi động lại dịch vụ NoMachine
+# Bước 3: Khởi động lại dịch vụ NoMachine
 sudo /usr/NX/bin/nxserver --restart
   </pre>
 

@@ -26,11 +26,25 @@ Sau khi cài đặt, bạn cần khởi động dịch vụ SSH:
 
 Từ máy tính khác, bạn có thể kết nối đến Jetson Orin Nano bằng lệnh SSH. Thay username bằng tên người dùng của bạn và ip_address bằng địa chỉ IP của Jetson Orin Nano:
    ssh username@ip_address
+
+💻  Cài Tailscale trên cả hai máy để có thể điều khiển không cần chung mạng
+
+`curl -fsSL https://tailscale.com/install.sh | sh`
+
+` sudo tailscale up`
   </pre>
 
   <h2>💻 Tải NoMachine cho Laptop</h2>
   <p>Truy cập vào trang chủ NoMachine để tải và cài đặt:</p>
   <p><a href="https://www.nomachine.com/" target="_blank">🔗 https://www.nomachine.com/</a></p>
+
+💻 Trên laptop
+
+1️⃣ Vào trang: https://tailscale.com/download
+
+2️⃣ Tải bản Windows hoặc macOS → Cài đặt như phần mềm bình thường.
+
+3️⃣ Mở Tailscale → Đăng nhập cùng tài khoản với Jetson.
 
   <p>Chúc bạn kết nối Jetson Orin thành công và mượt mà! 🧠🔧</p>
 
